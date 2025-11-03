@@ -38,26 +38,26 @@ RUN mkdir -p storage/framework/{cache,data,sessions,testing,views} \
 # Créer un fichier .env minimal pour le build
 RUN echo "APP_NAME=Laravel" > .env && \
     echo "APP_ENV=production" >> .env && \
-    echo "APP_KEY=base64:c3VwZXJzZWNyZXRrZXl0aGF0aXMyNWNoYXJzUm9uZzE=" >> .env && \
-    echo "APP_DEBUG=false" >> .env && \
-    echo "APP_URL=https://khadidiatou-fall-api-laravel-0luq.onrender.com" >> .env && \
+    echo "APP_KEY=base64:W0DU3eWug8uFCmcOATnFBGEJbgfoFK2beqVTH6qRwrg=" >> .env && \
+    echo "APP_DEBUG=true" >> .env && \
+    echo "APP_URL=https://appli-laravel-groupe.onrender.com" >> .env && \
     echo "" >> .env && \
     echo "LOG_CHANNEL=stack" >> .env && \
     echo "LOG_LEVEL=error" >> .env && \
     echo "" >> .env && \
     echo "DB_CONNECTION=pgsql" >> .env && \
-    echo "DB_HOST=dpg-d3t39cndiees73d01bi0-a.oregon-postgres.render.com" >> .env && \
+    echo "DB_HOST=dpg-d44aobodl3ps73aplrm0-a.oregon-postgres.render.com" >> .env && \
     echo "DB_PORT=5432" >> .env && \
-    echo "DB_DATABASE=pgsql_415o" >> .env && \
-    echo "DB_USERNAME=postgress" >> .env && \
-    echo "DB_PASSWORD=oQVoI5XcpnGWoIRQiZxtl31hH3FR7eCT" >> .env && \
+    echo "DB_DATABASE=gestion_comptes_api" >> .env && \
+    echo "DB_USERNAME=gestion_comptes_api_user" >> .env && \
+    echo "DB_PASSWORD=E3EM3gYPCojhxraLPA98sqGvR1bVSoNu" >> .env && \
     echo "" >> .env && \
     echo "CACHE_DRIVER=file" >> .env && \
     echo "SESSION_DRIVER=file" >> .env && \
     echo "QUEUE_CONNECTION=sync" >> .env && \
     echo "" >> .env && \
     echo "PASSPORT_PERSONAL_ACCESS_CLIENT_ID=1" >> .env && \
-    echo "PASSPORT_PERSONAL_ACCESS_CLIENT_SECRET=secret123" >> .env && \
+    echo "PASSPORT_PERSONAL_ACCESS_CLIENT_SECRET=zlxItbTiDBOsWMwESt70QZQwsLE3iSUn54raQ0QD" >> .env && \
     echo "" >> .env && \
     echo "PASSPORT_PRIVATE_KEY=" >> .env && \
     echo "PASSPORT_PUBLIC_KEY=" >> .env
