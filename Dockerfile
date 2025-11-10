@@ -68,7 +68,7 @@ RUN chown laravel:laravel .env
 USER laravel
 # RUN php artisan key:generate --force \
   RUN php artisan config:cache \
-    && php artisan route:cache \
+    # && php artisan route:cache \
     && php artisan view:cache
 USER root
 
