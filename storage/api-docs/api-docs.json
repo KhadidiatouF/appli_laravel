@@ -11,7 +11,7 @@
             "description": "Serveur de développement"
         },
         {
-            "url": "https://appli-laravel-groupe.onrender.com/",
+            "url": "https://appli-laravel-groupe.onrender.com",
             "description": "Serveur de production"
         }
     ],
