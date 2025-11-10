@@ -28,6 +28,11 @@ class RouteServiceProvider extends ServiceProvider
             return Limit::perMinute(60)->by($request->user()?->id ?: $request->ip());
         });
 
+        if ($this->app->runningInConsole()) {
+            // Désactive la mise en cache des routes Swagger
+            $this->app['router']->getRoutes()->removeNamedRoute('l5-swagger.default.api');
+        }
+        
         $this->routes(function () {
             Route::middleware('api')
                 ->prefix('api')
