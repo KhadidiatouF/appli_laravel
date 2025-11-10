@@ -21,6 +21,7 @@ use Exception;
  *     url="http://127.0.0.1:8000",
  *     description="Serveur de développement"
  * )
+ * 
  * @OA\Server(
  *     url="https://appli-laravel-groupe.onrender.com/",
  *     description="Serveur de production"
