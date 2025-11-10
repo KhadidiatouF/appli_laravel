@@ -4,6 +4,7 @@
     { "src": "public/**/*", "use": "@vercel/static" }
   ],
   "routes": [
-    { "src": "/api/documentation", "dest": "/swagger.html" }
+    { "src": "/api/documentation", "dest": "/swagger.html" },
+    { "src": "/docs/api-docs.json", "dest": "/storage/api-docs/api-docs.json" }
   ]
 }
