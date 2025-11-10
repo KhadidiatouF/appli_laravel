@@ -65,6 +65,16 @@ return [
             // ],
         ],
 
+        'sendgrid' => [
+            'transport' => 'smtp',
+            'host' => env('MAIL_HOST', 'smtp.sendgrid.net'),
+            'port' => env('MAIL_PORT', 587),
+            'encryption' => env('MAIL_ENCRYPTION', 'tls'),
+            'username' => env('MAIL_USERNAME', 'apikey'),
+            'password' => env('MAIL_PASSWORD'),
+            'timeout' => null,
+        ],
+
         'sendmail' => [
             'transport' => 'sendmail',
             'path' => env('MAIL_SENDMAIL_PATH', '/usr/sbin/sendmail -bs -i'),

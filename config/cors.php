@@ -19,7 +19,7 @@ return [
 
     'allowed_methods' => ['DELETE', 'PATCH', 'POST', 'GET', 'PUT', 'OPTIONS'],
 
-    'allowed_origins' => ['https://laravel-reprisg.onrender.com', 'http://127.0.0.1:8000/'],
+    'allowed_origins' => ['https://appli-laravel-groupe.onrender.com', 'http://127.0.0.1:8000/'],
 
     'allowed_origins_patterns' => [],
 
